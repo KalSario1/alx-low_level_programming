@@ -3,11 +3,12 @@
  * main - main block
  * Return: 0
 */
-int main(void) {
-    printf("The size of char is %ld bytes.\n", sizeof(char));
-    printf("The size of int is %ld bytes.\n", sizeof(int));
-    printf("The size of long is %ld bytes.\n", sizeof(long));
-    printf("The size of long long is %ld bytes.\n", sizeof(long long));
-    printf("The size of float is %ld bytes.\n", sizeof(float));
-    return 0;
+int main(void)
+{
+printf("Size of a char: %i byte(s)\n", sizeof(char));
+printf("Size of an int: %i byte(s)\n", sizeof(int));
+printf("Size of a long int: %i byte(s)\n", sizeof(long int));
+printf("Size of a long long int: %i byte(s)\n", sizeof(long long int));
+printf("Size of a float: %i byte(s)\n", sizeof(float));
+return 0;
 }
