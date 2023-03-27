@@ -2,5 +2,10 @@
 
 int _strlen(char *s)
 {
-char *length = _strlen(*s);
+char *length = 0;
+while (*s++)
+{
+    *length++;
+}
+return (length);
 }
