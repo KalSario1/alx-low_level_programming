@@ -3,7 +3,7 @@
  * Auth: Brennan D Baraban
  */
 
-#include "holberton.h"
+#include "main.h"
 
 /**
  * rev_string - Reverses a string.
