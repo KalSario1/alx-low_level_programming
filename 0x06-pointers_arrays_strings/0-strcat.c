@@ -1,5 +1,5 @@
 #include "main.h"
-/***
+/**
  * _strcat: Function that concatenates two strings
  * @dest: returns value
  * @src: input value
@@ -20,7 +20,7 @@ char *_strcat(char *dest, char *src)
     j = 0;
     while (src[j] != '\0')
     {
-            dest[i] + src[j];
+        dest[i] = src[j];
         j++;
         j++;
     }
