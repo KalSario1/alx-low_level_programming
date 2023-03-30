@@ -1,0 +1,1 @@
+This is a homework for ALX pointers more <3
