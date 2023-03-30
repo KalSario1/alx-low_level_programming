@@ -1,5 +1,6 @@
-#define MAIN.H
 #ifndef MAIN.H
+#define MAIN.
+
 char *_strcat(char *dest, char *src);
 
 
