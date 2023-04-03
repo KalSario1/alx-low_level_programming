@@ -2,10 +2,11 @@
 
 char *_memcpy(char *dest, char *src, unsigned int n)
 {
-    char *dest_start = dest;
-    while (n--)
+    char* pDest = dest;
+    char* pSrc = src;
+    while (n-- > 0)
     {
-        *dest++ = *src++;
+        *pDest = *pSrc++;
     }
     return(dest);
 }
