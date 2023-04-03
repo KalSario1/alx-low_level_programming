@@ -2,8 +2,6 @@
 
 int main(void)
 {
-    char *name ="mahmoud kamal";
-    char **pName = &name;
-    int namesize = sizeof(**pName);
-    printf("%d\n",namesize);
+int a[5][2] = {{1, 2}, {3, 4}, {5, 6}, {7, 8}, {9, 10}};
+printf("%d\n", a[1][1]);
 }
