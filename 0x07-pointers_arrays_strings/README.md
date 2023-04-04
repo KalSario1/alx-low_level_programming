@@ -1,1 +1,1 @@
-__this is alx c pointers part 3__
+# 0x07. C - Even more pointers, arrays and strings
