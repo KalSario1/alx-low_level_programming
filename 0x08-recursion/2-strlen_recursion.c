@@ -14,7 +14,6 @@ return (0);
 }
 else
 {
-_strlen_recursion(s + 1);
-_putchar(*s);
+return (1); + _strlen_recursion(s + 1);
 }
 }
