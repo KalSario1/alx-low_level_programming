@@ -15,6 +15,6 @@ return (0);
 else
 {
 _strlen_recursion(s + 1);
-return (1);
+_putchar(*s);
 }
 }
