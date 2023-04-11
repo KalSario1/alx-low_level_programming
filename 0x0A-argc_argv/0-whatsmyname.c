@@ -1,5 +1,5 @@
 #include "main.h"
-#include<stdio.h>
+#include <stdio.h>
 
 /**
  * main - function that prints its name
@@ -11,6 +11,6 @@
 
 int main(int argc, char *argv[])
 {
-printf("%s\n",argv[argc * 0]);
+printf("%s\n", argv[argc * 0]);
 return(0);
 }
