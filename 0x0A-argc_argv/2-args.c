@@ -2,7 +2,6 @@
 
 /**
  * main - Write a program that prints all arguments it receives.
- * @i: loop
  * @argc: command line
  * @argv: array
  * Return: 0
