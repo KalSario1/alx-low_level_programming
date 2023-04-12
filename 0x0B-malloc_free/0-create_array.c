@@ -5,7 +5,7 @@
 /**
  * *create_array: Write a function that creates an array of chars, and initializes it with a specific char.
  * @size: size of the char
- * @c : characters
+ * @c: characters
  * Return: Null or c
 */
 
