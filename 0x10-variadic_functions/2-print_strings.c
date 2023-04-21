@@ -13,7 +13,7 @@ va_start(args, n);
 
 for (i=0; i < n; i++)
 {
-const char *str = va_arg(args, const char *);
+char *str = va_arg(args, char *);
 if (str == NULL)
 {
 printf("nill");
