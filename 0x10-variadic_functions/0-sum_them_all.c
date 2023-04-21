@@ -3,10 +3,8 @@
 /**
  * sum_them_all - Returns the sum of all its parameters
  * @n: Number of arguments passed to the function
- * 
  * Return: Sum of all parameters
  */
-
 int sum_them_all(const unsigned int n, ...)
 {
 va_list args;
