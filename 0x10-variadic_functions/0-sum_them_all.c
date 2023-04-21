@@ -18,14 +18,14 @@ if (n == 0)
     return (0);
 }
 
-va_start(args, n);
+va_start (args, n);
 
 for (i = 0; i < n; i++)
 {
     sum += va_arg(args, int);
 }
 
-va_end(args);
+va_end (args);
 
 return (sum);
 }
