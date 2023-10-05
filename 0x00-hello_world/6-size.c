@@ -13,10 +13,10 @@ double intergermore;
 float floattype;
 char str;
 
-printf("Integer Size: %zu\n", sizeof(interger));
-printf("Double Size: %zu\n", sizeof(intergermore));
-printf("Float Size: %zu\n", sizeof(floattype));
-printf("Char Size: %zu\n", sizeof(str));
+printf("Size of a char: %zu byte(s)\n", sizeof(interger));
+printf("Size of an int: %zu byte(s)\n", sizeof(intergermore));
+printf("Size of a long int: %zu byte(s)\n", sizeof(floattype));
+printf("Size of a float: %zu byte(s)\n", sizeof(str));
 
 
 return (0);
