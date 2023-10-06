@@ -2,7 +2,7 @@
 
 
 /**
- * main - This program will assign a random number to the variable n each time it is executed.
+ * main - This program will assign a random number
  * Return: is positive or negative or zero
 */
 
@@ -20,6 +20,6 @@ for (al = 'A'; al <= 'Z'; al++)
 putchar(al);
 }
 putchar('\n');
-return 0;
+return (0);
 }
 
