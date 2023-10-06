@@ -16,7 +16,7 @@ for (al = 'a'; al <= 'z'; al++)
 putchar(al);    
 }
 
-putchar("\n");
+putchar('\n');
 return (0);
 
 }
