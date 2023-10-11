@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * main - alphabet game
+ * print_alphabet - function
  * Return: Alphabet lol
 */
 
