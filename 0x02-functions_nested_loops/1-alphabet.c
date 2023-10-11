@@ -1,5 +1,10 @@
 #include "main.h"
 
+/**
+ * main - alphabet game
+ * Return: Alphabet lol
+*/
+
 void print_alphabet(void)
 {
 char al;
