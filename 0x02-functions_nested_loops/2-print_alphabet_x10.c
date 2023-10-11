@@ -20,5 +20,4 @@ _putchar(al);
 _putchar('\n');
 i++;
 }
-return (0);
 }
