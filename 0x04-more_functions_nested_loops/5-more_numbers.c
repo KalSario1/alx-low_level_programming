@@ -5,17 +5,15 @@
  * Return: True or False
 */
 
+
 void more_numbers(void)
 {
-int i;
-while (i < 15)
-{
-int al;
-for (al = 0; al <= 10; al++)
-{
-_putchar(al);
-}
-_putchar(i);
-}
-_putchar('\n');
+    int i, j;
+
+    for (i = 0; i < 10; i++) {
+        for (j = 0; j <= 14; j++) {
+            _putchar(j + '0');
+        }
+        _putchar('\n');
+    }
 }
