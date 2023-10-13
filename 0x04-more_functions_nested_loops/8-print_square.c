@@ -16,13 +16,15 @@ _putchar('\n');
 else
 {
 int i;
+int j;
 for (i = 0; i < size; i++)
 {
-while (size > 0)
+for (j = 0; j < size; j++)
 {
 _putchar('#');
-size;
 }
+_putchar('\n');
+
 }
 }
 }
