@@ -15,14 +15,16 @@ _putchar('\n');
 }
 else
 {
-while (n > 0)
+int spaces;
+for (spaces = 0; spaces < n; spaces++)
 {
-_putchar('\\');
-while (n--)
+int backslash;
+for (backslash = 0; backslash < spaces; backslash++)
 {
 _putchar(' ');
 }
-}
+_putchar('\\');
 _putchar('\n');
+}
 }
 }
