@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * print_numbers - function count to 10 except 2,4
+ * print_most_numbers - function count to 10 except 2,4
  * Return: True or False
 */
 
