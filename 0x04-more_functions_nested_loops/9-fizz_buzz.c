@@ -1,11 +1,14 @@
 #include <stdio.h>
 
+/**
+ * main - fizzbuzz
+ * Return: True
+*/
 
-
-void fizzBuzz(int n)
+int main(void)
 {
 int i;
-for (i = 0; i < n; i++)
+for (i = 0; i <= 100; i++)
 {
 if (i % 3 == 0 && i % 5 == 0)
 {
@@ -24,10 +27,5 @@ else
 printf("%d ", i);
 }
 }
-}
-
-
-int main (void)
-{
-fizzBuzz(100);
+return (0);
 }
