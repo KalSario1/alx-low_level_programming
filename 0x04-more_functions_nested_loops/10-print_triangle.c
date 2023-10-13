@@ -2,10 +2,10 @@
 
 /**
  * print_triangle - triangle goes wheeeeee
+ * @size: the size of the triangle
  * Return: True
-*/
-
-void print_triangle(int size)
+ */
+void print_triangle(int size) 
 {
 if (size <= 0)
 {
