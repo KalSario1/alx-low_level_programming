@@ -19,7 +19,7 @@ len++;
 
 end = len -1;
 
-while (start > end)
+while (start < end)
 {
 temp = s[start];
 s[start] = s[end];
