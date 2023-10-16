@@ -15,7 +15,7 @@ len++;
 }
 int start = 0;
 int end = len - 1;
-int temp;
+char temp;
 while (start > end)
 {
 temp = s[start];
