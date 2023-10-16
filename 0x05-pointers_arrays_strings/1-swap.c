@@ -4,7 +4,7 @@
  * swap_int - function
  * @a: first value
  * @b: 2nd value
- * Return: Void 
+ * Return: Void
 */
 
 void swap_int(int *a, int *b)
