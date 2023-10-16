@@ -17,7 +17,7 @@ while (s[len] != '\0')
 len++;
 }
 
-end = len -1;
+end = len - 1;
 
 while (start < end)
 {
