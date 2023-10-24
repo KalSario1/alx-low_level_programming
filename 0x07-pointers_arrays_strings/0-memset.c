@@ -2,7 +2,7 @@
 
 /**
  * _memset - function
- * @dest: destination pointer
+ * @s: destination pointer
  * @b: source pointer
  * @n: unsigned int
  * Return: char
