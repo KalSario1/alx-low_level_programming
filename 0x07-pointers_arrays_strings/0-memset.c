@@ -3,9 +3,9 @@
 /**
  * _memset - function
  * @dest: destination pointer
- * @src: source pointer
+ * @b: source pointer
  * @n: unsigned int
- * Return: Char
+ * Return: char
 */
 
 char *_memset(char *s, char b, unsigned int n)
