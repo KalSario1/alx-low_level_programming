@@ -5,6 +5,7 @@
  * @n: integer
  * Return: int
 */
+int sqrt_recursive_helper(int n, int start, int end);
 
 int _sqrt_recursion(int n)
 {
