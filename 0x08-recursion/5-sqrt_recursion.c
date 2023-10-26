@@ -18,13 +18,31 @@ return (1);
 }
 else
 {
-double x0 = n;
-double x1 = (x0 + n / x0) / 2;
-while (x1 < x0)
+return sqrt_recursive_helper(n, 1, n-1);
+}
+}
+
+int sqrt_recursive_helper(int n, int start, int end)
 {
-x0 = x1;
-x1 = (x0 + n / x0) / 2;
+if (start > end)
+{
+return (-1);
 }
-return (x0);
+int mid = (start + end) / 2;
+int square = mid * mid;
+
+if (square == n)
+{
+return (mid);
 }
+else if (square > n)
+{
+return sqrt_recursive_helper(n, start, mid - 1)
+}
+else
+{
+return sqrt_recursive_helper(n, mid + 1, end);
+}
+
+
 }
