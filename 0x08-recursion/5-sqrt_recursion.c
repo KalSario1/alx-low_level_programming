@@ -37,7 +37,7 @@ return (mid);
 }
 else if (square > n)
 {
-return sqrt_recursive_helper(n, start, mid - 1)
+return sqrt_recursive_helper(n, start, mid - 1);
 }
 else
 {
