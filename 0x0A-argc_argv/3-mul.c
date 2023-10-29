@@ -9,13 +9,13 @@ if (str[0] == '-')
 sign = -1;
 str++;
 }
-else if (str[0] == "+")
+else if (str[0] == '+')
 {
 str++;
 }
-for (; *str != "\0"; str++)
+for (; *str != '\0'; str++)
 {
-if (*str >= 0 && *str <= 9)
+if (*str >= '0' && *str <= '9')
 {
 result = result * 10 + (*str - '0');
 }
