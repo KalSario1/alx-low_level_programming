@@ -18,5 +18,6 @@ int num1 = atoi(argv[1]);
 int num2 = atoi(argv[2]);
 
 int results = num1 * num2;
+printf("%d\n", results);
 return (0);
 }
