@@ -1,42 +1,41 @@
 #include "main.h"
+#include <stdio.h>
+#include <stdlib.h>
 
 /**
- * str_concat - function
- * @s1: string one
- * @s2: string two
- * Return: char
+ * str_concat - Entry point
+ *@s1: string 1
+ *@s2: string 2
+ * Return: pointer should point to a newly allocated space in memory or NULL
  */
-
 char *str_concat(char *s1, char *s2)
 {
-	int i = 0, j = 0, k = 0, l = 0;
-	char *s;
+	char *strnew = NULL;
+	unsigned int i;
+	int n1;
+	int n2;
+	int count;
+
+	count = 0;
 	if (s1 == NULL)
 		s1 = "";
 	if (s2 == NULL)
 		s2 = "";
-	while (s1[i])
-		i++;
-	while (s2[i])
-		j++;
-
-	l = i + j;
-	s = malloc((sizeof(char) * l) +1);
-
-	if (s == NULL)
-		return (NULL);
-	j = 0;
-	while (k < l)
+	for (n1 = 0; s1[n1] != '\0'; n1++)
+		;
+	for (n2 = 0; s2[n2] != '\0'; n2++)
+		;
+	strnew = (char *)malloc((n1 + n2 + 1) * sizeof(char));
+	if (strnew == NULL)
 	{
-		if (k <= i)
-			s[k] = s1[k];
-		if (k >= i)
-		{
-			s[k] = s2[j];
-			j++;
-		}
-		k++;
+		return (NULL);
 	}
-	s[k] = '\0';
-	return (s);
+	for (i = 0; s1[i] != '\0'; i++)
+		strnew[i] = s1[i];
+	for (; s2[count] != '\0'; i++)
+	{
+		strnew[i] = s2[count];
+		count++;
+	}
+	return (strnew);
 }
