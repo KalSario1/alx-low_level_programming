@@ -7,6 +7,8 @@
  * @nmemb: unsigned int
  * @size: int
  * Return: Void 
+ * NULL IF FAIL
+ * Pointer if success
 */
 
 void *_calloc(unsigned int nmemb, unsigned int size)
