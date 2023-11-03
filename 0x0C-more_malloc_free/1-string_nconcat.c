@@ -23,11 +23,13 @@ while (s1[len1] != '\0')
 len1++;
 }
 while (s2[len2] != '\0')
+{
 len2++;
+}
 if (n >= len2)
 n = len2;
 result_len = len1 + n;
-result =(char *)malloc(result_len + 1);
+result =(char *)malloc(result_len +1);
 if (result == NULL)
 return (NULL);
 for (i = 0; i < len1; i++)
