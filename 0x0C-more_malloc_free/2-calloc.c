@@ -24,7 +24,9 @@ return (NULL);
 unsigned int total_size = nmemb * size;
 unsigned char *char_ptr = (unsigned char *)ptr;
 
-for (unsigned int i = 0; i < total_size; i++)
+unsigned int i;
+
+for (i = 0; i < total_size; i++)
 {
 char_ptr[i] = 0;
 }
