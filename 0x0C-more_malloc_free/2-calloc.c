@@ -21,6 +21,12 @@ if (ptr == NULL)
 {
 return (NULL);
 }
-memset(ptr, 0, nmemb * size);
+unsigned int total_size = nmemb * size;
+unsigned char *char_ptr = (unsigned char *)ptr;
+
+for (unsigned int i = 0; i < total_size; i++)
+{
+char_ptr[i] = 0;
+}
 return (ptr);
 }
